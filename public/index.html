@@ -1,0 +1,42 @@
+<!doctype html>
+<html data-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+    }
+
+    .container-fluid {
+      padding-top: var(--spacing);
+      padding-bottom: var(--spacing);
+    }
+
+    article {
+      padding-top: var(--spacing);
+      padding-bottom: var(--spacing);
+    }
+
+    small {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+  </style>
+  <title>Libsodium Playground!</title>
+</head>
+
+<body>
+  <main id="app" class="container-fluid"></main>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
