@@ -9,6 +9,8 @@
 
  :dev-http {8080 "public"}
 
+ :jvm-opts ["-Xss16m"]
+
  :builds
  {:app
   {:target :browser
