@@ -55,7 +55,7 @@
      (d/div
       {:className "headings"}
       (d/h1 "Libsodium Playground!")
-      (d/h2 "All data is encoded with UrlSafe no Padding"))
+      (d/h2 "All data is encoded with Base64 UrlSafe no Padding"))
 
      (d/div
       {:class "grid"}
